@@ -1,16 +1,43 @@
-# React + Vite
+# React Calculator 🧮
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive calculator built with React that performs basic arithmetic operations with a clean and modern user interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://react-calculator-sai.netlify.app
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division
+- Percentage calculation
+- Clear all (`AC`) functionality
+- Delete last character (`C`) functionality
+- Responsive design
+- Clean and modern user interface
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- CSS Modules
+- Vite
+
+## ⚛️ React Concepts Used
+
+- Functional Components
+- Reusable Components
+- Props
+- `useState` Hook
+- Event Handling
+- Conditional Logic
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── App.module.css
+│   ├── buttonContainer.jsx
+│   └── display.jsx
+├── App.jsx
+└── main.jsx
