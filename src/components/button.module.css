@@ -1,0 +1,35 @@
+.calc-btn {
+  height: 55px;
+  color: #f5f7fa;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.num-btn {
+  background: #26354b;
+}
+.operator-btn {
+  background: #3478dc;
+}
+.clear-btn {
+  background: #e84868;
+}
+.num-btn:hover {
+  background: #32445e;
+}
+.equal-btn {
+  grid-column: -3/-1;
+  background: #3cb968;
+  font-size: 30px;
+}
+.operator-btn:hover {
+  background: #4389ed;
+}
+.clear-btn:hover {
+  background: #f05a78;
+}
+.equal-btn:hover {
+  background: #4acb77;
+}
